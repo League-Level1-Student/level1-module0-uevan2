@@ -10,7 +10,7 @@ public void setup(){
   pictureOfRecord= loadImage("record.jpeg");
   pictureOfRecord.resize(600, 600);
   minim = new Minim(this);
-  song = minim.loadFile("song2.mp3", 512);
+  song = minim.loadFile("song.mp3", 512);
 }
 
 void rotateImage(PImage image, int amountToRotate) {
